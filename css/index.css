@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    font-size: 14px;
+    color: #666;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.biejing {
+    height: 100vh;
+    background: url(/cxj/img/biejing.jpg) no-repeat;
+    background-size: cover;
+}
+
+.biaoti {
+    width: 100%;
+    height: 70px;
+    /* background-color: rgba(255, 192, 203, 0.8); */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    line-height: 218px;
+    font-size: 30px;
+    color: pink;
+}
+
+.lan {
+    width: 100%;
+    height: 300px;
+    /* background-color: black; */
+    margin-top: 100px;
+    text-align: center;
+}
+
+.lan input[type="text"] {
+    width: 80%;
+    height: 54px;
+    margin: 30px 0;
+    border-radius: 20px;
+    border: 3px solid pink;
+    background-color: transparent;
+    text-align: center;
+    color: pink;
+}
+
+.annu {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.annu input[type="button"] {
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 3px solid pink;
+    background-color: transparent;
+    color: #666;
+    font-size: 20px;
+}
+
+.ff {
+    position: absolute;
+    top: -89px;
+    left: 87px;
+    width: 200px;
+    height: 200px;
+    border-bottom: 3px solid pink;
+    border-right: 3px solid pink;
+    transform: rotate(45deg);
+}
